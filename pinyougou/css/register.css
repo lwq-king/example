@@ -1,0 +1,95 @@
+.segister { 
+    margin-top: 20px;
+    height: 524px;
+    border: 1px solid #ccc;
+}
+.header {
+    border-bottom: 2px solid rgb(189, 5, 5);
+}
+.segister h3 {
+    padding-left: 15px;
+    padding-right: 10px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ccc;
+    font-weight: 400;
+}
+.segister h3 span {
+    float: right;
+    font-size: 12px;
+}
+.segister h3 span a {
+    color: red;
+}
+.segister_list {
+    width: 615px;
+    height: 372px;
+    margin: 55px auto;
+   
+}
+.segister_list ul li {
+    height: 55px;
+    
+}
+.segister_list ul li span {
+    display: inline-block;
+    text-align: right;
+    width: 100px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 14px;
+    
+}
+.segister_list ul li .inp {
+    width: 240px;
+    height: 37px;
+    outline: none;
+    padding-left: 15px;
+}
+.segister_list ul li em {
+    font-family: 'icomoon';
+    font-size: 12px;
+    color: red;
+}
+.segister_list ul .safe {
+    height: 20px;
+    padding-left: 171px;
+
+}
+.segister_list ul .safe em {
+    display: inline-block;
+    width: 34px;
+    height: 13px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 13px;
+    text-align: center;
+}
+.ruo {
+    background-color: rgb(243, 12, 12);
+}
+.zhong {
+    background-color: rgb(223, 148, 11);
+}
+.qiang {
+    background-color: rgb(17, 235, 9);
+}
+.segister_list ul .check {
+    margin-top: 20px;
+    padding-left: 160px;
+    height: 20px;
+}
+.segister_list ul .check a {
+    color: skyblue;
+}
+.segister_list ul .tijiao .over {
+    margin-left: 110px;
+    margin-top: 40px;
+    width: 200px;
+    height: 36px;
+    background-color: rgb(241, 17, 17);
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    outline: none;
+}

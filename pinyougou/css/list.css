@@ -1,0 +1,153 @@
+.sk {
+    position: absolute;
+    left: 183px;
+    top: 40px;
+    height: 32px;
+}
+.sk_list{
+    float: left;
+    height: 45px;
+}
+.sk_list ul li {
+    float: left;
+    margin-left: 28px;
+    line-height: 45px;
+    font-size: 16px;
+}
+.sk_list ul li a {
+    color: #000;
+}
+.sk_con {
+    float: right;
+    height: 45px;
+}
+.sk_con ul li {
+    float: left;
+    line-height: 45px;
+    font-size: 14px;
+    margin-left: 45px;
+}
+.sk_con ul li:last-child{
+    margin-right: 65px;
+}
+.sk_con ul li a {
+    font-family: 'icomoon';
+    color: #666;
+}
+.sk_container {
+    width: 1200px;
+}
+.sk_container .sk_hd {
+    width: 1200px;
+    height: 123px;
+    margin-bottom: 25px;
+}
+.sk_goods {
+    width: 295px;
+    height: 458px;
+     border: solid 1px transparent; 
+}
+.sk_container .sk_bd ul li:hover{
+    border: solid 1px #e12228;
+}
+.sk_bd ul {
+    width: 1210px;
+}
+.sk_bd ul li {
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 6px;
+}
+.sk_goods a {
+    display: block;
+}
+.sk_goods a img {
+    margin-left: 4px;
+}
+.sk_goods a h3 {
+    font-size: 14px;
+    color: #666666;
+    margin-left: 4px;
+}
+.sk_goods_price {
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.sk_goods_price em {
+    font-size: 22px;
+    color: #e60012;
+    font-weight: 700;
+}
+.sk_goods_progress {
+    font-size: 14px; 
+    list-style: 14px;
+    text-align: center;
+}
+.sk_goods_progress .bar {
+    display: inline-block;
+    width: 134px;
+    height: 14px;
+    border: solid 1px #e60012;
+    border-radius: 7px;
+}
+.sk_goods_progress .bar div {
+    width: 125px;
+    height: 13px;
+    border-radius: 6px 0 0 6px;
+    background-color: #e60012;
+}
+.sk_goods_progress em {
+    color: #e60012;
+}
+.sk_goods_buy {
+    display: block;
+    width: 294px;
+    height: 50px;
+    margin-top: 5px;
+    margin-right: 1px;
+    background-color: #e60012;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: #fff;
+}
+.page {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.page a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background-color: #f7f7f7;
+    border: solid 1px #cccccc;
+    text-align: center;
+    line-height: 36px;
+    text-decoration: none;
+    color: #333;
+    font-size: 13px;
+}
+
+.page .shangyiye,
+.page .xiayiye {
+    width: 85px;
+}
+.page input {
+    height: 36px;
+    width: 45px;
+    border: solid 1px #ccc;
+    outline: none;
+    transition: all 1s ;
+}
+.page button {
+    height: 36px;
+    width: 45px;
+    border: solid 1px #cccccc;
+}
+.page input:focus{
+    width: 70px;
+    border: 1px solid skyblue;
+}
